@@ -2260,3 +2260,534 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.02-17.43.24:135][691]SourceControl:  create mode 100644 FeatureProject/Content/Blueprints/InputActions/IMC_PlayerControls.uasset
 [2025.12.02-17.43.24:135][691]SourceControl:  create mode 100644 FeatureProject/Content/StarterWorld.umap
 [2025.12.02-17.43.24:143][691]SourceControl: Commited [main 3553d45] Cereated Player, Block, And basic code to work off on.
+[2025.12.02-17.45.38:711][891]LogSlate: Window 'Revision Control Login' being destroyed
+[2025.12.02-17.45.42:304][275]LogEditorTransaction: Undo Move Node
+[2025.12.02-17.46.20:725][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.46.43:899][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.12.02-17.46.45:207][943]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.46.45:211][943]LogPlayLevel: [PlayLevel] Compiling BP_Pawn before play...
+[2025.12.02-17.46.45:263][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.02-17.46.45:266][943]LogPlayLevel: PlayLevel: Blueprint regeneration took 54 ms (1 blueprints)
+[2025.12.02-17.46.45:294][943]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.46.45:296][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001756s)
+[2025.12.02-17.46.45:296][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001800s)
+[2025.12.02-17.46.45:316][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.02-17.46.45:319][943]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.46.45:320][943]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2025.12.02-17.46.45:321][943]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.46.45:321][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.46.45:321][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.46.45:321][943]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.46.45:321][943]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.46.45:321][943]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.46.45:323][943]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.46.45:352][943]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.46.45:352][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.46.45:352][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.46.45:352][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.46.45:352][943]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.12.02-17.46.45:352][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.12.02-17.46.45:355][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.12.02-17.46.45:355][943]LogInit: FAudioDevice initialized with ID 6.
+[2025.12.02-17.46.45:355][943]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.12.02-17.46.45:355][943]LogAudio: Display: Audio Device (ID: 6) registered with world 'StarterWorld'.
+[2025.12.02-17.46.45:355][943]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.02-17.46.45:358][943]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.46.45:358][943]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.46.45
+[2025.12.02-17.46.45:360][943]LogWorld: Bringing up level for play took: 0.000653
+[2025.12.02-17.46.45:361][943]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.12.02-17.46.45:362][943]PIE: Server logged in
+[2025.12.02-17.46.45:362][943]PIE: Play in editor total start time 0.152 seconds.
+[2025.12.02-17.46.45:406][944]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.46.46:461][  8]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3274.020264
+[2025.12.02-17.46.46:606][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.02-17.46.46:606][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3274.156982, Update Interval: 340.875885
+[2025.12.02-17.46.52:185][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.46.52:185][692]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.46.52:185][692]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.46.52:185][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.46.52:187][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.46.52:192][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.46.52:212][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.46.52:212][692]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.02-17.46.52:212][692]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.12.02-17.46.52:215][692]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.12.02-17.46.52:220][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.12.02-17.46.52:309][694]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.12.02-17.46.59:132][449]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.46.59:136][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-17.46.59:136][449]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.46.59:138][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001690s)
+[2025.12.02-17.46.59:138][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001715s)
+[2025.12.02-17.46.59:159][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.46.59:162][449]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.46.59:164][449]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2025.12.02-17.46.59:164][449]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.46.59:164][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.46.59:164][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.46.59:164][449]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.46.59:164][449]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.46.59:164][449]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.46.59:165][449]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.46.59:193][449]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.46.59:193][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.46.59:193][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.46.59:193][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.46.59:193][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.12.02-17.46.59:193][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.12.02-17.46.59:196][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.12.02-17.46.59:196][449]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.12.02-17.46.59:196][449]LogInit: FAudioDevice initialized with ID 7.
+[2025.12.02-17.46.59:196][449]LogAudio: Display: Audio Device (ID: 7) registered with world 'StarterWorld'.
+[2025.12.02-17.46.59:196][449]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.12.02-17.46.59:199][449]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.46.59:200][449]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.46.59
+[2025.12.02-17.46.59:200][449]LogWorld: Bringing up level for play took: 0.000630
+[2025.12.02-17.46.59:201][449]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.12.02-17.46.59:202][449]PIE: Server logged in
+[2025.12.02-17.46.59:204][449]PIE: Play in editor total start time 0.068 seconds.
+[2025.12.02-17.46.59:256][449]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.47.03:385][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.47.03:385][934]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.47.03:385][934]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.47.03:385][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.47.03:387][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.47.03:391][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.47.03:412][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.47.03:413][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.12.02-17.47.03:413][934]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.12.02-17.47.03:415][934]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.12.02-17.47.03:419][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.12.02-17.47.03:455][935]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.12.02-17.47.53:588][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.47.54:811][329]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.47.54:816][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-17.47.54:816][329]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.47.54:817][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001672s)
+[2025.12.02-17.47.54:817][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001697s)
+[2025.12.02-17.47.54:837][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.47.54:844][329]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.47.54:845][329]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2025.12.02-17.47.54:845][329]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.47.54:845][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.47.54:845][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.47.54:845][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.47.54:845][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.47.54:845][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.47.54:847][329]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.47.54:875][329]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.47.54:875][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.47.54:875][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.47.54:875][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.47.54:875][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.12.02-17.47.54:875][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.12.02-17.47.54:877][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.12.02-17.47.54:877][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.12.02-17.47.54:877][329]LogInit: FAudioDevice initialized with ID 8.
+[2025.12.02-17.47.54:877][329]LogAudio: Display: Audio Device (ID: 8) registered with world 'StarterWorld'.
+[2025.12.02-17.47.54:877][329]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.12.02-17.47.54:881][329]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.47.54:881][329]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.47.54
+[2025.12.02-17.47.54:881][329]LogWorld: Bringing up level for play took: 0.000613
+[2025.12.02-17.47.54:882][329]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.12.02-17.47.54:884][329]PIE: Server logged in
+[2025.12.02-17.47.54:885][329]PIE: Play in editor total start time 0.07 seconds.
+[2025.12.02-17.47.54:938][329]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.48.00:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.48.00:615][  0]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.48.00:615][  0]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.48.00:615][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.48.00:621][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.48.00:626][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.48.00:646][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-17.48.00:647][  0]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.12.02-17.48.00:647][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.12.02-17.48.00:648][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.12.02-17.48.00:652][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.48.00:654][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.02-17.48.00:689][  1]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.12.02-17.48.10:187][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.48.13:600][334]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/InputActions/IA_LeftClick.IA_LeftClick
+[2025.12.02-17.48.36:884][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.12.02-17.48.38:044][ 77]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.48.38:047][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-17.48.38:047][ 77]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.48.38:049][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001673s)
+[2025.12.02-17.48.38:049][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001698s)
+[2025.12.02-17.48.38:069][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.48.38:077][ 77]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.48.38:078][ 77]LogPlayLevel: PIE: World Init took: (0.001364s)
+[2025.12.02-17.48.38:078][ 77]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.48.38:079][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.48.38:079][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.48.38:079][ 77]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.48.38:079][ 77]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.48.38:079][ 77]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.48.38:080][ 77]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.48.38:108][ 77]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.48.38:108][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.48.38:108][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.48.38:108][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.48.38:109][ 77]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.12.02-17.48.38:109][ 77]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.12.02-17.48.38:111][ 77]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.12.02-17.48.38:111][ 77]LogInit: FAudioDevice initialized with ID 9.
+[2025.12.02-17.48.38:111][ 77]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.12.02-17.48.38:111][ 77]LogAudio: Display: Audio Device (ID: 9) registered with world 'StarterWorld'.
+[2025.12.02-17.48.38:111][ 77]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.12.02-17.48.38:114][ 77]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.48.38:114][ 77]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.48.38
+[2025.12.02-17.48.38:115][ 77]LogWorld: Bringing up level for play took: 0.000658
+[2025.12.02-17.48.38:117][ 77]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.12.02-17.48.38:118][ 77]PIE: Server logged in
+[2025.12.02-17.48.38:119][ 77]PIE: Play in editor total start time 0.072 seconds.
+[2025.12.02-17.48.38:174][ 77]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.48.42:465][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.48.42:465][580]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.48.42:465][580]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.48.42:465][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.48.42:471][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.48.42:476][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.48.42:496][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-17.48.42:496][580]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.12.02-17.48.42:496][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.12.02-17.48.42:498][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.12.02-17.48.42:502][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.48.42:504][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.12.02-17.48.42:541][581]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.12.02-17.49.36:499][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.02-17.53.03:122][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3650.685547
+[2025.12.02-17.53.03:715][ 95]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.02-17.53.03:715][ 96]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3651.270020, Update Interval: 357.701965
+[2025.12.02-17.53.11:145][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.12.02-17.53.11:154][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterWorld_Auto5
+[2025.12.02-17.53.11:154][973]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/StarterWorld_Auto50E9713E14445B92763E149B5AA8C51FD.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/Autosaves/Game/StarterWorld_Auto5.umap'
+[2025.12.02-17.53.11:155][973]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterWorld' took 0.034
+[2025.12.02-17.53.11:155][973]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2025.12.02-17.53.11:155][973]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Pawn] ([2] browsable assets)...
+[2025.12.02-17.53.11:201][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn]
+[2025.12.02-17.53.11:201][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Pawn]
+[2025.12.02-17.53.11:209][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Pawn_Auto5
+[2025.12.02-17.53.11:209][973]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/BP_Pawn_Auto53B4E7B8C42242AB77E93278687093178.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/Autosaves/Game/Blueprints/BP_Pawn_Auto5.uasset'
+[2025.12.02-17.53.11:210][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerController] ([2] browsable assets)...
+[2025.12.02-17.53.11:210][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerController]
+[2025.12.02-17.53.11:212][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_PlayerController_Auto5
+[2025.12.02-17.53.11:212][973]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/BP_PlayerController_Auto5B1CE49D944165CAC4430F5B737CA6274.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/Autosaves/Game/Blueprints/BP_PlayerController_Auto5.uasset'
+[2025.12.02-17.53.11:212][973]LogFileHelpers: Auto-saving content packages took 0.057
+[2025.12.02-17.53.12:126][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.12.02-17.53.13:319][192]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.53.13:322][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-17.53.13:324][192]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.53.13:325][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001711s)
+[2025.12.02-17.53.13:325][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001740s)
+[2025.12.02-17.53.13:346][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.02-17.53.13:354][192]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.53.13:355][192]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2025.12.02-17.53.13:356][192]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.53.13:356][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.53.13:356][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.53.13:356][192]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.53.13:356][192]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.53.13:356][192]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.53.13:358][192]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.53.13:387][192]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.53.13:387][192]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.53.13:387][192]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.53.13:387][192]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.53.13:387][192]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.12.02-17.53.13:388][192]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.12.02-17.53.13:389][192]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.12.02-17.53.13:389][192]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.12.02-17.53.13:390][192]LogInit: FAudioDevice initialized with ID 10.
+[2025.12.02-17.53.13:390][192]LogAudio: Display: Audio Device (ID: 10) registered with world 'StarterWorld'.
+[2025.12.02-17.53.13:390][192]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.12.02-17.53.13:393][192]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.53.13:394][192]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.53.13
+[2025.12.02-17.53.13:394][192]LogWorld: Bringing up level for play took: 0.000677
+[2025.12.02-17.53.13:395][192]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.12.02-17.53.13:397][192]PIE: Server logged in
+[2025.12.02-17.53.13:398][192]PIE: Play in editor total start time 0.075 seconds.
+[2025.12.02-17.53.13:448][192]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.53.16:264][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.53.16:264][511]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.53.16:264][511]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.53.16:264][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.53.16:271][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.53.16:277][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.53.16:297][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-17.53.16:297][511]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.12.02-17.53.16:297][511]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.12.02-17.53.16:299][511]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.12.02-17.53.16:302][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.53.16:304][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.02-17.53.16:342][512]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.12.02-17.53.24:007][413]LogEditorTransaction: Undo Delete current selection
+[2025.12.02-17.53.26:147][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.53.27:371][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.02-17.53.27:375][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-17.53.27:375][728]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.53.27:377][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001603s)
+[2025.12.02-17.53.27:377][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.001627s)
+[2025.12.02-17.53.27:397][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.12.02-17.53.27:405][728]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.02-17.53.27:406][728]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2025.12.02-17.53.27:407][728]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-17.53.27:407][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-17.53.27:407][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-17.53.27:407][728]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-17.53.27:407][728]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-17.53.27:407][728]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-17.53.27:408][728]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-17.53.27:437][728]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Life Q20)
+[2025.12.02-17.53.27:437][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-17.53.27:437][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-17.53.27:437][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-17.53.27:437][728]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.12.02-17.53.27:437][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.12.02-17.53.27:439][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.12.02-17.53.27:439][728]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.12.02-17.53.27:439][728]LogInit: FAudioDevice initialized with ID 11.
+[2025.12.02-17.53.27:439][728]LogAudio: Display: Audio Device (ID: 11) registered with world 'StarterWorld'.
+[2025.12.02-17.53.27:439][728]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.12.02-17.53.27:443][728]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.02-17.53.27:443][728]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.02-09.53.27
+[2025.12.02-17.53.27:444][728]LogWorld: Bringing up level for play took: 0.000633
+[2025.12.02-17.53.27:444][728]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.12.02-17.53.27:445][728]PIE: Server logged in
+[2025.12.02-17.53.27:447][728]PIE: Play in editor total start time 0.072 seconds.
+[2025.12.02-17.53.27:498][728]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.02-17.53.36:075][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.53.36:075][746]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.02-17.53.36:075][746]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-17.53.36:075][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.53.36:084][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-17.53.36:089][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-17.53.36:109][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-17.53.36:109][746]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.12.02-17.53.36:109][746]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.12.02-17.53.36:111][746]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.12.02-17.53.36:114][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-17.53.36:116][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.12.02-17.53.36:155][747]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.12.02-17.53.39:881][141]Cmd: TRANSACTION UNDO
+[2025.12.02-17.53.39:881][141]LogEditorTransaction: Undo Move Elements
+[2025.12.02-17.53.44:613][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.02-17.53.45:681][641]LogSlate: Window 'Save Content' being destroyed
+[2025.12.02-17.53.45:790][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.02-17.53.45:815][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterWorld" FILE="../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/StarterWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.02-17.53.45:847][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.12.02-17.53.45:855][641]LogSavePackage: Moving output files for package: /Game/StarterWorld
+[2025.12.02-17.53.45:855][641]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/StarterWorld02BA39FA4B4339B13D61B58A92FFB808.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/StarterWorld.umap'
+[2025.12.02-17.53.45:860][641]LogFileHelpers: Saving map 'StarterWorld' took 0.046
+[2025.12.02-17.53.45:860][641]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Pawn] ([2] browsable assets)...
+[2025.12.02-17.53.45:909][641]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn]
+[2025.12.02-17.53.45:909][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Pawn]
+[2025.12.02-17.53.45:909][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2025.12.02-17.53.45:919][641]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2025.12.02-17.53.45:920][641]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/BP_PawnCD6F75F34D461BAE7C9E72B59AF6EEC4.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_Pawn.uasset'
+[2025.12.02-17.53.45:920][641]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerController] ([2] browsable assets)...
+[2025.12.02-17.53.45:920][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerController]
+[2025.12.02-17.53.45:920][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerController" FILE="../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_PlayerController.uasset" SILENT=true
+[2025.12.02-17.53.45:922][641]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerController
+[2025.12.02-17.53.45:923][641]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/BP_PlayerController50F528AD40CEA975FC5941B707253435.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_PlayerController.uasset'
+[2025.12.02-17.53.45:931][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.589 ms (total: 1.44 sec)
+[2025.12.02-17.53.45:965][641]LogContentValidation: Display: Starting to validate 3 assets
+[2025.12.02-17.53.45:965][641]LogContentValidation: Enabled validators:
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.02-17.53.45:965][641]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.02-17.53.45:966][641]AssetCheck: /Game/StarterWorld Validating asset
+[2025.12.02-17.53.45:966][641]AssetCheck: /Game/Blueprints/BP_Pawn Validating asset
+[2025.12.02-17.53.45:966][641]AssetCheck: /Game/Blueprints/BP_PlayerController Validating asset
+[2025.12.02-17.54.08:766][ 89]LogDerivedDataCache: C:/Users/mrboo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:098][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.54.17:099][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.55.34:404][ 30]LogSlate: Window 'Submit Files' being destroyed
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:315][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.18:316][859]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.02-17.57.26:096][859]LogSlate: Window 'Submit Files' being destroyed
+[2025.12.02-17.57.26:325][859]LogSourceControl: commit successful: [main 8737a0c] Trouble with Player Movement
+[2025.12.02-17.57.26:391][859]SourceControl: [main 8737a0c] Trouble with Player Movement
+[2025.12.02-17.57.26:391][859]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2025.12.02-17.57.26:401][859]SourceControl: Commited [main 8737a0c] Trouble with Player Movement.
