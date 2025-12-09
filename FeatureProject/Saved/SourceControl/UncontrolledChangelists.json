@@ -5,11 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Feature-Project/FeatureProject/Content/Blueprints/BP_Pawn.uasset",
-				"C:/Feature-Project/FeatureProject/Content/Blueprints/InputActions/IA_Look.uasset",
-				"C:/Feature-Project/FeatureProject/Content/Blueprints/InputActions/IMC_PlayerControls.uasset",
-				"C:/Feature-Project/FeatureProject/Content/StarterWorld.umap",
-				"C:/Feature-Project/FeatureProject/Content/Blueprints/InputActions/IA_Jump.uasset"
+				"C:/GithubProjects/Feature-Project/FeatureProject/Content/UI/Grass.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_M_Grass_22AAD318407D5B9AE1649E8C6E04F032_8DAF266242236B2BEA1BC68C70BB9E0A_8FCD078C44001B0816AE8896030EEA91_4AA26EE9445046EF36DE17830840A1C4.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_M_Grass_22AAD318407D5B9AE1649E8C6E04F032_8DAF266242236B2BEA1BC68C70BB9E0A_8FCD078C44001B0816AE8896030EEA91.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_M_Block_C66B5D8945DAA8FA212FC39DE4C73A74_68CCB8DB49718BA18A62C2BB5F4874AE.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_MI_M_SM_Template_Map_Floor_M_Grass_22AAD318407D5B9AE1649E8C6E04F032_8DAF266242236B2BEA1BC68C70BB9E0A.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_M_Block_C66B5D8945DAA8FA212FC39DE4C73A74.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/MapTemplates/M_SM_Template_Map_Floor_M_Grass_22AAD318407D5B9AE1649E8C6E04F032.uasset",
+				"C:/GithubProjects/Feature-Project/FeatureProject/Content/Materials/M_Grass.uasset"
 			]
 		}
 	]
