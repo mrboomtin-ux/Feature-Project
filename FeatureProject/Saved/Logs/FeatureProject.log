@@ -28229,3 +28229,1045 @@ Sampler Limit: 32
 [2025.12.09-07.12.40:913][948]UATHelper: Zip Project Task (Windows (Editor)): AutomationTool executed for 0h 0m 0s
 [2025.12.09-07.12.40:913][948]UATHelper: Zip Project Task (Windows (Editor)): AutomationTool exiting with ExitCode=0 (Success)
 [2025.12.09-07.12.40:934][949]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.09-07.13.27:765][367]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-07.13.27:770][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-07.13.27:791][367]LogPlayLevel: Display: Creating online subsystem for client :Context_122
+[2025.12.09-07.13.27:793][367]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2025.12.09-07.13.27:816][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.13.27:820][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002367s)
+[2025.12.09-07.13.27:820][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.002410s)
+[2025.12.09-07.13.27:842][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.12.09-07.13.27:848][368]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.09-07.13.27:850][368]LogPlayLevel: PIE: World Init took: (0.001452s)
+[2025.12.09-07.13.27:850][368]LogAudio: Display: Creating Audio Device:                 Id: 98, Scope: Unique, Realtime: True
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-07.13.27:850][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-07.13.27:850][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-07.13.27:850][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-07.13.27:850][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-07.13.27:850][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-07.13.27:852][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-07.13.27:877][368]LogAudioMixer: Display: Using Audio Hardware Device 1 - MSI MP271A E2 (2- AMD High Definition Audio Device)
+[2025.12.09-07.13.27:878][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-07.13.27:878][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-07.13.27:878][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-07.13.27:878][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=98
+[2025.12.09-07.13.27:878][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=98
+[2025.12.09-07.13.27:880][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=98
+[2025.12.09-07.13.27:880][368]LogInit: FAudioDevice initialized with ID 98.
+[2025.12.09-07.13.27:880][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=98
+[2025.12.09-07.13.27:880][368]LogAudio: Display: Audio Device (ID: 98) registered with world 'StarterWorld'.
+[2025.12.09-07.13.27:880][368]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 98
+[2025.12.09-07.13.27:883][368]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.09-07.13.27:890][368]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.08-23.13.27
+[2025.12.09-07.13.27:890][368]LogWorld: Bringing up level for play took: 0.006259
+[2025.12.09-07.13.27:891][368]PIE: Server logged in
+[2025.12.09-07.13.27:893][368]PIE: Play in editor total start time 0.124 seconds.
+[2025.12.09-07.13.27:945][368]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-07.13.28:240][395]LogBlueprintUserMessages: [BP_Pawn_C_1] Cancel
+[2025.12.09-07.13.31:668][695]LogBlueprintUserMessages: [BP_Pawn_C_1] Picked Up
+[2025.12.09-07.13.34:571][959]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.009581
+[2025.12.09-07.13.34:571][959]LogBlueprintUserMessages: [BP_Pawn_C_1] YAYY
+[2025.12.09-07.13.34:581][960]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.019555
+[2025.12.09-07.13.34:590][961]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.029302
+[2025.12.09-07.13.34:600][962]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.039149
+[2025.12.09-07.13.34:611][963]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.049021
+[2025.12.09-07.13.34:620][964]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.058706
+[2025.12.09-07.13.34:630][965]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.06913
+[2025.12.09-07.13.34:640][966]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.079188
+[2025.12.09-07.13.34:650][967]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.089439
+[2025.12.09-07.13.34:661][968]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.099384
+[2025.12.09-07.13.34:670][969]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.109214
+[2025.12.09-07.13.34:680][970]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.119358
+[2025.12.09-07.13.34:690][971]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.129265
+[2025.12.09-07.13.34:701][972]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.140036
+[2025.12.09-07.13.34:711][973]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.149992
+[2025.12.09-07.13.34:722][974]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.159914
+[2025.12.09-07.13.34:731][975]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.169824
+[2025.12.09-07.13.34:741][976]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.17978
+[2025.12.09-07.13.34:751][977]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.189757
+[2025.12.09-07.13.34:760][978]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.199683
+[2025.12.09-07.13.34:771][979]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.209791
+[2025.12.09-07.13.34:781][980]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.21979
+[2025.12.09-07.13.34:791][981]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.229657
+[2025.12.09-07.13.34:802][982]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.24083
+[2025.12.09-07.13.34:812][983]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.250791
+[2025.12.09-07.13.34:822][984]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.260761
+[2025.12.09-07.13.34:833][985]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.270864
+[2025.12.09-07.13.34:842][986]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.280794
+[2025.12.09-07.13.34:852][987]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.290982
+[2025.12.09-07.13.34:862][988]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.300713
+[2025.12.09-07.13.34:872][989]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.310526
+[2025.12.09-07.13.34:881][990]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.32025
+[2025.12.09-07.13.34:892][991]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.330244
+[2025.12.09-07.13.34:903][992]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.341139
+[2025.12.09-07.13.34:913][993]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.351302
+[2025.12.09-07.13.34:922][994]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.361309
+[2025.12.09-07.13.34:932][995]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.371029
+[2025.12.09-07.13.34:942][996]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.381052
+[2025.12.09-07.13.34:953][997]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.391036
+[2025.12.09-07.13.34:963][998]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.400894
+[2025.12.09-07.13.34:972][999]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.410814
+[2025.12.09-07.13.34:982][  0]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.420422
+[2025.12.09-07.13.34:992][  1]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.430468
+[2025.12.09-07.13.35:002][  2]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.440571
+[2025.12.09-07.13.35:013][  3]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.451256
+[2025.12.09-07.13.35:023][  4]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.461264
+[2025.12.09-07.13.35:033][  5]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.4718
+[2025.12.09-07.13.35:044][  6]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.482733
+[2025.12.09-07.13.35:054][  7]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.492776
+[2025.12.09-07.13.35:064][  8]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.502745
+[2025.12.09-07.13.35:073][  9]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.512472
+[2025.12.09-07.13.35:084][ 10]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.522439
+[2025.12.09-07.13.35:093][ 11]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.53229
+[2025.12.09-07.13.35:104][ 12]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.542134
+[2025.12.09-07.13.35:113][ 13]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.552118
+[2025.12.09-07.13.35:124][ 14]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.562146
+[2025.12.09-07.13.35:133][ 15]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.571972
+[2025.12.09-07.13.35:144][ 16]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.58197
+[2025.12.09-07.13.35:154][ 17]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.593092
+[2025.12.09-07.13.35:166][ 18]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.603742
+[2025.12.09-07.13.35:175][ 19]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.613787
+[2025.12.09-07.13.35:185][ 20]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.623698
+[2025.12.09-07.13.35:194][ 21]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.633525
+[2025.12.09-07.13.35:205][ 22]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.644594
+[2025.12.09-07.13.35:216][ 23]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.654387
+[2025.12.09-07.13.35:226][ 24]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.665173
+[2025.12.09-07.13.35:237][ 25]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.674978
+[2025.12.09-07.13.35:247][ 26]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.684922
+[2025.12.09-07.13.35:256][ 27]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.694608
+[2025.12.09-07.13.35:266][ 28]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.70478
+[2025.12.09-07.13.35:277][ 29]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.715523
+[2025.12.09-07.13.35:287][ 30]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.725848
+[2025.12.09-07.13.35:297][ 31]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.735876
+[2025.12.09-07.13.35:307][ 32]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.745775
+[2025.12.09-07.13.35:317][ 33]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.755937
+[2025.12.09-07.13.35:328][ 34]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.766809
+[2025.12.09-07.13.35:338][ 35]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.776834
+[2025.12.09-07.13.35:349][ 36]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.786938
+[2025.12.09-07.13.35:360][ 37]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.798198
+[2025.12.09-07.13.35:370][ 38]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.808392
+[2025.12.09-07.13.35:380][ 39]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.818336
+[2025.12.09-07.13.35:390][ 40]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.829123
+[2025.12.09-07.13.35:400][ 41]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.839167
+[2025.12.09-07.13.35:411][ 42]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.849142
+[2025.12.09-07.13.35:420][ 43]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.859172
+[2025.12.09-07.13.35:431][ 44]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.869643
+[2025.12.09-07.13.35:441][ 45]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.880388
+[2025.12.09-07.13.35:452][ 46]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.890575
+[2025.12.09-07.13.35:462][ 47]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.900411
+[2025.12.09-07.13.35:472][ 48]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.910431
+[2025.12.09-07.13.35:482][ 49]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.920341
+[2025.12.09-07.13.35:491][ 50]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.930262
+[2025.12.09-07.13.35:501][ 51]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.940047
+[2025.12.09-07.13.35:513][ 52]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.951151
+[2025.12.09-07.13.35:523][ 53]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.961179
+[2025.12.09-07.13.35:534][ 54]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.972403
+[2025.12.09-07.13.35:544][ 55]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.982736
+[2025.12.09-07.13.35:555][ 56]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.993039
+[2025.12.09-07.13.35:565][ 57]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.003049
+[2025.12.09-07.13.35:575][ 58]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.012861
+[2025.12.09-07.13.35:584][ 59]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.022766
+[2025.12.09-07.13.35:594][ 60]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.032884
+[2025.12.09-07.13.35:605][ 61]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.042997
+[2025.12.09-07.13.35:614][ 62]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.053034
+[2025.12.09-07.13.35:625][ 63]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.063065
+[2025.12.09-07.13.35:637][ 64]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.075752
+[2025.12.09-07.13.35:648][ 65]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.086667
+[2025.12.09-07.13.35:659][ 66]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.096925
+[2025.12.09-07.13.35:670][ 67]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.108054
+[2025.12.09-07.13.35:681][ 68]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.11942
+[2025.12.09-07.13.35:691][ 69]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.129974
+[2025.12.09-07.13.35:702][ 70]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.14051
+[2025.12.09-07.13.35:712][ 71]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.15047
+[2025.12.09-07.13.35:721][ 72]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.16035
+[2025.12.09-07.13.35:732][ 73]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.170672
+[2025.12.09-07.13.35:742][ 74]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.180912
+[2025.12.09-07.13.35:753][ 75]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.190891
+[2025.12.09-07.13.35:763][ 76]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.200891
+[2025.12.09-07.13.35:773][ 77]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.21102
+[2025.12.09-07.13.35:784][ 78]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.222046
+[2025.12.09-07.13.35:793][ 79]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.231898
+[2025.12.09-07.13.35:804][ 80]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.241921
+[2025.12.09-07.13.35:813][ 81]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.251899
+[2025.12.09-07.13.35:824][ 82]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.261841
+[2025.12.09-07.13.35:834][ 83]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.272369
+[2025.12.09-07.13.35:844][ 84]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.282323
+[2025.12.09-07.13.35:854][ 85]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.292384
+[2025.12.09-07.13.35:864][ 86]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.302711
+[2025.12.09-07.13.35:874][ 87]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.312548
+[2025.12.09-07.13.35:885][ 88]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.322831
+[2025.12.09-07.13.35:893][ 89]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.332667
+[2025.12.09-07.13.35:904][ 90]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.34251
+[2025.12.09-07.13.35:914][ 91]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.353245
+[2025.12.09-07.13.35:924][ 92]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.363324
+[2025.12.09-07.13.35:934][ 93]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.373174
+[2025.12.09-07.13.35:945][ 94]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.383112
+[2025.12.09-07.13.35:955][ 95]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.393054
+[2025.12.09-07.13.35:964][ 96]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.403171
+[2025.12.09-07.13.35:975][ 97]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.413012
+[2025.12.09-07.13.35:985][ 98]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.423417
+[2025.12.09-07.13.35:995][ 99]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.434311
+[2025.12.09-07.13.36:005][100]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.444171
+[2025.12.09-07.13.36:016][101]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.454557
+[2025.12.09-07.13.36:026][102]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.464754
+[2025.12.09-07.13.36:037][103]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.475586
+[2025.12.09-07.13.36:047][104]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.485421
+[2025.12.09-07.13.36:057][105]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.49544
+[2025.12.09-07.13.36:066][106]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.505188
+[2025.12.09-07.13.36:077][107]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.515257
+[2025.12.09-07.13.36:086][108]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.52533
+[2025.12.09-07.13.36:097][109]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.535373
+[2025.12.09-07.13.36:106][110]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.545162
+[2025.12.09-07.13.36:117][111]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.554972
+[2025.12.09-07.13.36:127][112]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.564832
+[2025.12.09-07.13.36:136][113]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.574778
+[2025.12.09-07.13.36:146][114]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.584949
+[2025.12.09-07.13.36:156][115]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.595037
+[2025.12.09-07.13.36:166][116]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.60493
+[2025.12.09-07.13.36:177][117]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.614955
+[2025.12.09-07.13.36:186][118]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.625401
+[2025.12.09-07.13.36:196][119]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.635211
+[2025.12.09-07.13.36:207][120]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.645854
+[2025.12.09-07.13.36:217][121]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.656029
+[2025.12.09-07.13.36:228][122]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.666381
+[2025.12.09-07.13.36:239][123]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.677415
+[2025.12.09-07.13.36:249][124]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.687404
+[2025.12.09-07.13.36:259][125]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.697223
+[2025.12.09-07.13.36:268][126]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.7071
+[2025.12.09-07.13.36:279][127]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.717251
+[2025.12.09-07.13.36:290][128]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.728087
+[2025.12.09-07.13.36:300][129]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.738101
+[2025.12.09-07.13.36:310][130]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.748255
+[2025.12.09-07.13.36:318][131]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.758055
+[2025.12.09-07.13.36:330][132]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.768169
+[2025.12.09-07.13.36:340][133]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.778086
+[2025.12.09-07.13.36:350][134]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.788011
+[2025.12.09-07.13.36:360][135]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.798084
+[2025.12.09-07.13.36:371][136]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.808876
+[2025.12.09-07.13.36:381][137]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.819555
+[2025.12.09-07.13.36:390][138]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.829396
+[2025.12.09-07.13.36:400][139]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.839098
+[2025.12.09-07.13.36:410][140]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.849071
+[2025.12.09-07.13.36:421][141]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.860162
+[2025.12.09-07.13.36:432][142]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.870517
+[2025.12.09-07.13.36:442][143]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.880658
+[2025.12.09-07.13.36:453][144]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.891593
+[2025.12.09-07.13.36:463][145]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.901982
+[2025.12.09-07.13.36:474][146]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.912038
+[2025.12.09-07.13.36:484][147]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.922
+[2025.12.09-07.13.36:493][148]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.932003
+[2025.12.09-07.13.36:504][149]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.941932
+[2025.12.09-07.13.36:514][150]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.951836
+[2025.12.09-07.13.36:524][151]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.962648
+[2025.12.09-07.13.36:535][152]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.972885
+[2025.12.09-07.13.36:544][153]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.982802
+[2025.12.09-07.13.36:554][154]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.992539
+[2025.12.09-07.13.36:564][155]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.002447
+[2025.12.09-07.13.36:574][156]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.01223
+[2025.12.09-07.13.36:584][157]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.022181
+[2025.12.09-07.13.36:594][158]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.032154
+[2025.12.09-07.13.36:603][159]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.041982
+[2025.12.09-07.13.36:613][160]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.051844
+[2025.12.09-07.13.36:623][161]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.061597
+[2025.12.09-07.13.36:633][162]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.071883
+[2025.12.09-07.13.36:644][163]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.082527
+[2025.12.09-07.13.36:654][164]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.093273
+[2025.12.09-07.13.36:664][165]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.10289
+[2025.12.09-07.13.36:675][166]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.112979
+[2025.12.09-07.13.36:684][167]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.122692
+[2025.12.09-07.13.36:694][168]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.132469
+[2025.12.09-07.13.36:704][169]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.14256
+[2025.12.09-07.13.36:714][170]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.152458
+[2025.12.09-07.13.36:723][171]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.162321
+[2025.12.09-07.13.36:735][172]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.173223
+[2025.12.09-07.13.36:744][173]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.182894
+[2025.12.09-07.13.36:754][174]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.192917
+[2025.12.09-07.13.36:764][175]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.20276
+[2025.12.09-07.13.36:774][176]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.212492
+[2025.12.09-07.13.36:784][177]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.222543
+[2025.12.09-07.13.36:794][178]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.232423
+[2025.12.09-07.13.36:803][179]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.242327
+[2025.12.09-07.13.36:813][180]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.252368
+[2025.12.09-07.13.36:824][181]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.261928
+[2025.12.09-07.13.36:834][182]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.272324
+[2025.12.09-07.13.36:844][183]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.28241
+[2025.12.09-07.13.36:853][184]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.291945
+[2025.12.09-07.13.36:863][185]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.301921
+[2025.12.09-07.13.36:873][186]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.311933
+[2025.12.09-07.13.36:884][187]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.321889
+[2025.12.09-07.13.36:894][188]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.332019
+[2025.12.09-07.13.36:904][189]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.341847
+[2025.12.09-07.13.36:914][190]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.352351
+[2025.12.09-07.13.36:924][191]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.362215
+[2025.12.09-07.13.36:933][192]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.372196
+[2025.12.09-07.13.36:943][193]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.382042
+[2025.12.09-07.13.36:954][194]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.391841
+[2025.12.09-07.13.36:962][195]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.401646
+[2025.12.09-07.13.36:972][196]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.411408
+[2025.12.09-07.13.36:983][197]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.421255
+[2025.12.09-07.13.36:992][198]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.43114
+[2025.12.09-07.13.37:002][199]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.440788
+[2025.12.09-07.13.37:012][200]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.450465
+[2025.12.09-07.13.37:021][201]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.460179
+[2025.12.09-07.13.37:032][202]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.470755
+[2025.12.09-07.13.37:042][203]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.480566
+[2025.12.09-07.13.37:052][204]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.490352
+[2025.12.09-07.13.37:062][205]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.500324
+[2025.12.09-07.13.37:073][206]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.511173
+[2025.12.09-07.13.37:084][207]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.522624
+[2025.12.09-07.13.37:094][208]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.532536
+[2025.12.09-07.13.37:103][209]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.542416
+[2025.12.09-07.13.37:113][210]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.552369
+[2025.12.09-07.13.37:124][211]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.562136
+[2025.12.09-07.13.37:134][212]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.572018
+[2025.12.09-07.13.37:145][213]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.583143
+[2025.12.09-07.13.37:155][214]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.594459
+[2025.12.09-07.13.37:167][215]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.604932
+[2025.12.09-07.13.37:177][216]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.61546
+[2025.12.09-07.13.37:188][217]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.625818
+[2025.12.09-07.13.37:198][218]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.635895
+[2025.12.09-07.13.37:207][219]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.64606
+[2025.12.09-07.13.37:217][220]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.656066
+[2025.12.09-07.13.37:228][221]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.666577
+[2025.12.09-07.13.37:237][222]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.676572
+[2025.12.09-07.13.37:248][223]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.686703
+[2025.12.09-07.13.37:258][224]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.696559
+[2025.12.09-07.13.37:267][225]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.706172
+[2025.12.09-07.13.37:278][226]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.71586
+[2025.12.09-07.13.37:287][227]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.725679
+[2025.12.09-07.13.37:297][228]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.736341
+[2025.12.09-07.13.37:308][229]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.747787
+[2025.12.09-07.13.37:319][230]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.757695
+[2025.12.09-07.13.37:328][231]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.767448
+[2025.12.09-07.13.37:339][232]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.777341
+[2025.12.09-07.13.37:349][233]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.787977
+[2025.12.09-07.13.37:358][234]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.798067
+[2025.12.09-07.13.37:370][235]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.807997
+[2025.12.09-07.13.37:378][236]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.817865
+[2025.12.09-07.13.37:390][237]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.828024
+[2025.12.09-07.13.37:400][238]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.838437
+[2025.12.09-07.13.37:410][239]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.848802
+[2025.12.09-07.13.37:420][240]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.858782
+[2025.12.09-07.13.37:431][241]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.86927
+[2025.12.09-07.13.37:441][242]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.879786
+[2025.12.09-07.13.37:451][243]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.889972
+[2025.12.09-07.13.37:462][244]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.899781
+[2025.12.09-07.13.37:471][245]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.909512
+[2025.12.09-07.13.37:481][246]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.920337
+[2025.12.09-07.13.37:492][247]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.930448
+[2025.12.09-07.13.37:501][248]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.940288
+[2025.12.09-07.13.37:511][249]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.949909
+[2025.12.09-07.13.37:521][250]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.959648
+[2025.12.09-07.13.37:531][251]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.969697
+[2025.12.09-07.13.37:541][252]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.979647
+[2025.12.09-07.13.37:551][253]LogBlueprintUserMessages: [BP_Pawn_C_1] 3.990034
+[2025.12.09-07.13.37:561][254]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.000189
+[2025.12.09-07.13.37:571][255]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.009957
+[2025.12.09-07.13.37:581][256]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.019764
+[2025.12.09-07.13.37:591][257]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.029629
+[2025.12.09-07.13.37:602][258]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.040402
+[2025.12.09-07.13.37:612][259]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.050483
+[2025.12.09-07.13.37:623][260]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.060996
+[2025.12.09-07.13.37:632][261]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.071589
+[2025.12.09-07.13.37:642][262]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.081432
+[2025.12.09-07.13.37:653][263]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.091276
+[2025.12.09-07.13.37:662][264]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.100903
+[2025.12.09-07.13.37:672][265]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.111259
+[2025.12.09-07.13.37:682][266]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.121145
+[2025.12.09-07.13.37:692][267]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.130837
+[2025.12.09-07.13.37:703][268]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.140869
+[2025.12.09-07.13.37:712][269]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.150769
+[2025.12.09-07.13.37:722][270]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.160755
+[2025.12.09-07.13.37:732][271]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.170768
+[2025.12.09-07.13.37:742][272]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.18054
+[2025.12.09-07.13.37:753][273]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.190901
+[2025.12.09-07.13.37:762][274]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.200665
+[2025.12.09-07.13.37:772][275]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.210542
+[2025.12.09-07.13.37:781][276]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.220763
+[2025.12.09-07.13.37:793][277]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.231496
+[2025.12.09-07.13.37:803][278]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.241376
+[2025.12.09-07.13.37:813][279]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.251204
+[2025.12.09-07.13.37:822][280]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.261038
+[2025.12.09-07.13.37:833][281]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.27153
+[2025.12.09-07.13.37:843][282]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.281747
+[2025.12.09-07.13.37:854][283]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.29263
+[2025.12.09-07.13.37:863][284]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.302533
+[2025.12.09-07.13.37:873][285]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.31253
+[2025.12.09-07.13.37:884][286]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.32222
+[2025.12.09-07.13.37:894][287]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.332166
+[2025.12.09-07.13.37:905][288]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.342819
+[2025.12.09-07.13.37:916][289]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.35462
+[2025.12.09-07.13.37:926][290]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.365376
+[2025.12.09-07.13.37:936][291]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.375203
+[2025.12.09-07.13.37:947][292]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.386309
+[2025.12.09-07.13.37:957][293]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.39638
+[2025.12.09-07.13.37:968][294]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.40606
+[2025.12.09-07.13.37:977][295]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.415899
+[2025.12.09-07.13.37:987][296]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.4259
+[2025.12.09-07.13.37:997][297]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.435802
+[2025.12.09-07.13.38:008][298]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.445829
+[2025.12.09-07.13.38:017][299]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.455882
+[2025.12.09-07.13.38:028][300]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.466334
+[2025.12.09-07.13.38:038][301]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.476577
+[2025.12.09-07.13.38:048][302]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.487845
+[2025.12.09-07.13.38:060][303]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.498632
+[2025.12.09-07.13.38:070][304]LogBlueprintUserMessages: [BP_Pawn_C_1] 4.508498
+[2025.12.09-07.13.38:631][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.13.38:631][357]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.13.38:631][357]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-07.13.38:631][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.13.38:649][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-07.13.38:654][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.13.38:674][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.13.38:674][357]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 98
+[2025.12.09-07.13.38:674][357]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98, StreamState=4
+[2025.12.09-07.13.38:676][357]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98, StreamState=2
+[2025.12.09-07.13.38:682][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.09-07.13.38:827][358]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2025.12.09-07.13.53:399][565]LogEditorTransaction: Undo Delete current selection
+[2025.12.09-07.13.56:218][764]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-07.13.56:223][764]LogPlayLevel: [PlayLevel] Compiling BP_Pawn before play...
+[2025.12.09-07.13.56:425][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.12.09-07.13.56:429][764]LogPlayLevel: PlayLevel: Blueprint regeneration took 207 ms (1 blueprints)
+[2025.12.09-07.13.56:461][764]LogPlayLevel: Display: Creating online subsystem for client :Context_123
+[2025.12.09-07.13.56:463][764]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2025.12.09-07.13.56:667][765]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.13.56:670][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002393s)
+[2025.12.09-07.13.56:670][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.002433s)
+[2025.12.09-07.13.56:692][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.09-07.13.56:697][765]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.09-07.13.56:699][765]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2025.12.09-07.13.56:699][765]LogAudio: Display: Creating Audio Device:                 Id: 99, Scope: Unique, Realtime: True
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-07.13.56:699][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-07.13.56:699][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-07.13.56:699][765]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-07.13.56:699][765]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-07.13.56:699][765]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-07.13.56:701][765]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-07.13.56:726][765]LogAudioMixer: Display: Using Audio Hardware Device 1 - MSI MP271A E2 (2- AMD High Definition Audio Device)
+[2025.12.09-07.13.56:726][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-07.13.56:726][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-07.13.56:726][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-07.13.56:727][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=99
+[2025.12.09-07.13.56:727][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=99
+[2025.12.09-07.13.56:729][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=99
+[2025.12.09-07.13.56:729][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=99
+[2025.12.09-07.13.56:729][765]LogInit: FAudioDevice initialized with ID 99.
+[2025.12.09-07.13.56:729][765]LogAudio: Display: Audio Device (ID: 99) registered with world 'StarterWorld'.
+[2025.12.09-07.13.56:729][765]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 99
+[2025.12.09-07.13.56:732][765]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.09-07.13.56:741][765]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.08-23.13.56
+[2025.12.09-07.13.56:741][765]LogWorld: Bringing up level for play took: 0.008529
+[2025.12.09-07.13.56:743][765]PIE: Server logged in
+[2025.12.09-07.13.56:744][765]PIE: Play in editor total start time 0.522 seconds.
+[2025.12.09-07.13.56:806][765]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-07.14.02:191][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.14.02:191][285]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.14.02:191][285]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-07.14.02:191][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.14.02:208][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-07.14.02:214][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.14.02:237][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.14.02:237][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 99
+[2025.12.09-07.14.02:237][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99, StreamState=4
+[2025.12.09-07.14.02:239][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99, StreamState=2
+[2025.12.09-07.14.02:245][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.12.09-07.14.02:388][286]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2025.12.09-07.14.29:510][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.12.09-07.14.32:957][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.09-07.14.33:775][233]LogSlate: Window 'Save Content' being destroyed
+[2025.12.09-07.14.33:846][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.09-07.14.33:876][233]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Pawn] ([2] browsable assets)...
+[2025.12.09-07.14.33:928][233]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn]
+[2025.12.09-07.14.33:928][233]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Pawn]
+[2025.12.09-07.14.33:928][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2025.12.09-07.14.33:944][233]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2025.12.09-07.14.33:944][233]LogSavePackage: Moving '../../../../../../GithubProjects/Feature-Project/FeatureProject/Saved/BP_Pawn6C63B3C443CE0D24370CBAA2EA154739.tmp' to '../../../../../../GithubProjects/Feature-Project/FeatureProject/Content/Blueprints/BP_Pawn.uasset'
+[2025.12.09-07.14.33:952][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.546 ms (total: 2.87 sec)
+[2025.12.09-07.14.33:986][233]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.09-07.14.33:986][233]LogContentValidation: Enabled validators:
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.09-07.14.33:986][233]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.09-07.14.33:986][233]AssetCheck: /Game/Blueprints/BP_Pawn Validating asset
+[2025.12.09-07.16.02:212][330]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22280.482422
+[2025.12.09-07.16.02:369][341]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.16.02:369][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22280.621094, Update Interval: 311.433441
+[2025.12.09-07.17.34:555][637]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-07.17.34:555][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.17.34:651][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.12.09-07.17.45:851][601]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.09-07.17.45:856][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.09-07.17.45:884][601]LogPlayLevel: Display: Creating online subsystem for client :Context_124
+[2025.12.09-07.17.45:886][601]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2025.12.09-07.17.45:909][602]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.17.45:911][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002438s)
+[2025.12.09-07.17.45:911][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterWorld.StarterWorld to /Game/UEDPIE_0_StarterWorld.StarterWorld (0.002478s)
+[2025.12.09-07.17.45:932][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.12.09-07.17.45:938][602]LogChaosDD: Creating Chaos Debug Draw Scene for world StarterWorld
+[2025.12.09-07.17.45:940][602]LogPlayLevel: PIE: World Init took: (0.001423s)
+[2025.12.09-07.17.45:940][602]LogAudio: Display: Creating Audio Device:                 Id: 100, Scope: Unique, Realtime: True
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.09-07.17.45:940][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.09-07.17.45:940][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.09-07.17.45:940][602]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.09-07.17.45:940][602]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.09-07.17.45:940][602]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.09-07.17.45:943][602]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.09-07.17.45:968][602]LogAudioMixer: Display: Using Audio Hardware Device 1 - MSI MP271A E2 (2- AMD High Definition Audio Device)
+[2025.12.09-07.17.45:968][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.09-07.17.45:968][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.09-07.17.45:968][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.09-07.17.45:969][602]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=100
+[2025.12.09-07.17.45:969][602]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=100
+[2025.12.09-07.17.45:971][602]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=100
+[2025.12.09-07.17.45:971][602]LogInit: FAudioDevice initialized with ID 100.
+[2025.12.09-07.17.45:971][602]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=100
+[2025.12.09-07.17.45:971][602]LogAudio: Display: Audio Device (ID: 100) registered with world 'StarterWorld'.
+[2025.12.09-07.17.45:971][602]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 100
+[2025.12.09-07.17.45:975][602]LogLoad: Game class is 'BP_GameMode_C'
+[2025.12.09-07.17.45:984][602]LogWorld: Bringing World /Game/UEDPIE_0_StarterWorld.StarterWorld up for play (max tick rate 0) at 2025.12.08-23.17.45
+[2025.12.09-07.17.45:985][602]LogWorld: Bringing up level for play took: 0.009326
+[2025.12.09-07.17.45:986][602]PIE: Server logged in
+[2025.12.09-07.17.45:988][602]PIE: Play in editor total start time 0.131 seconds.
+[2025.12.09-07.17.46:042][602]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.09-07.17.52:283][195]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.005839
+[2025.12.09-07.17.52:291][196]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.015244
+[2025.12.09-07.17.52:301][197]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.024685
+[2025.12.09-07.17.52:311][198]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.034266
+[2025.12.09-07.17.52:320][199]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.043232
+[2025.12.09-07.17.52:329][200]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.052531
+[2025.12.09-07.17.52:337][201]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.061852
+[2025.12.09-07.17.52:347][202]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.071188
+[2025.12.09-07.17.52:357][203]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.080351
+[2025.12.09-07.17.52:366][204]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.089752
+[2025.12.09-07.17.52:376][205]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.099476
+[2025.12.09-07.17.52:385][206]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.108593
+[2025.12.09-07.17.52:394][207]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.117982
+[2025.12.09-07.17.52:404][208]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.127276
+[2025.12.09-07.17.52:413][209]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.136368
+[2025.12.09-07.17.52:422][210]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.145594
+[2025.12.09-07.17.52:432][211]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.155052
+[2025.12.09-07.17.52:441][212]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.164175
+[2025.12.09-07.17.52:450][213]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.173496
+[2025.12.09-07.17.52:460][214]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.182702
+[2025.12.09-07.17.52:469][215]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.192019
+[2025.12.09-07.17.52:479][216]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.201428
+[2025.12.09-07.17.52:488][217]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.211576
+[2025.12.09-07.17.52:497][218]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.220973
+[2025.12.09-07.17.52:507][219]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.230354
+[2025.12.09-07.17.52:517][220]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.240278
+[2025.12.09-07.17.52:527][221]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.249879
+[2025.12.09-07.17.52:535][222]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.259034
+[2025.12.09-07.17.52:544][223]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.268377
+[2025.12.09-07.17.52:554][224]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.277441
+[2025.12.09-07.17.52:565][225]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.287637
+[2025.12.09-07.17.52:574][226]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.297464
+[2025.12.09-07.17.52:583][227]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.306635
+[2025.12.09-07.17.52:593][228]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.31606
+[2025.12.09-07.17.52:601][229]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.325411
+[2025.12.09-07.17.52:610][230]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.334583
+[2025.12.09-07.17.52:621][231]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.343789
+[2025.12.09-07.17.52:629][232]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.353565
+[2025.12.09-07.17.52:640][233]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.363297
+[2025.12.09-07.17.52:649][234]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.372726
+[2025.12.09-07.17.52:658][235]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.382073
+[2025.12.09-07.17.52:668][236]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.391416
+[2025.12.09-07.17.52:676][237]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.40062
+[2025.12.09-07.17.52:686][238]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.409993
+[2025.12.09-07.17.52:695][239]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.419263
+[2025.12.09-07.17.52:705][240]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.428388
+[2025.12.09-07.17.52:713][241]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.437451
+[2025.12.09-07.17.52:723][242]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.446787
+[2025.12.09-07.17.52:733][243]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.456278
+[2025.12.09-07.17.52:741][244]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.465572
+[2025.12.09-07.17.52:752][245]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.475559
+[2025.12.09-07.17.52:761][246]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.484949
+[2025.12.09-07.17.52:771][247]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.49404
+[2025.12.09-07.17.52:780][248]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.503315
+[2025.12.09-07.17.52:789][249]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.512394
+[2025.12.09-07.17.52:799][250]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.521656
+[2025.12.09-07.17.52:808][251]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.530761
+[2025.12.09-07.17.52:816][252]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.53988
+[2025.12.09-07.17.52:825][253]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.549103
+[2025.12.09-07.17.52:835][254]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.55869
+[2025.12.09-07.17.52:844][255]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.568007
+[2025.12.09-07.17.52:854][256]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.577169
+[2025.12.09-07.17.52:863][257]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.586258
+[2025.12.09-07.17.52:873][258]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.595747
+[2025.12.09-07.17.52:882][259]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.605001
+[2025.12.09-07.17.52:891][260]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.614926
+[2025.12.09-07.17.52:901][261]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.624661
+[2025.12.09-07.17.52:910][262]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.63365
+[2025.12.09-07.17.52:920][263]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.643115
+[2025.12.09-07.17.52:928][264]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.652104
+[2025.12.09-07.17.52:937][265]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.661138
+[2025.12.09-07.17.52:946][266]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.670041
+[2025.12.09-07.17.52:956][267]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.679237
+[2025.12.09-07.17.52:965][268]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.688717
+[2025.12.09-07.17.52:974][269]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.697703
+[2025.12.09-07.17.52:983][270]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.707087
+[2025.12.09-07.17.52:993][271]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.716117
+[2025.12.09-07.17.53:002][272]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.725134
+[2025.12.09-07.17.53:011][273]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.734212
+[2025.12.09-07.17.53:019][274]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.743265
+[2025.12.09-07.17.53:030][275]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.752873
+[2025.12.09-07.17.53:038][276]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.762407
+[2025.12.09-07.17.53:048][277]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.771606
+[2025.12.09-07.17.53:057][278]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.780754
+[2025.12.09-07.17.53:067][279]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.789855
+[2025.12.09-07.17.53:075][280]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.799152
+[2025.12.09-07.17.53:085][281]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.808231
+[2025.12.09-07.17.53:093][282]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.817316
+[2025.12.09-07.17.53:103][283]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.826656
+[2025.12.09-07.17.53:113][284]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.836297
+[2025.12.09-07.17.53:122][285]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.84547
+[2025.12.09-07.17.53:131][286]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.854617
+[2025.12.09-07.17.53:140][287]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.863514
+[2025.12.09-07.17.53:149][288]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.872635
+[2025.12.09-07.17.53:158][289]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.881934
+[2025.12.09-07.17.53:167][290]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.890895
+[2025.12.09-07.17.53:176][291]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.900101
+[2025.12.09-07.17.53:186][292]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.909353
+[2025.12.09-07.17.53:195][293]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.91844
+[2025.12.09-07.17.53:204][294]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.927607
+[2025.12.09-07.17.53:213][295]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.93673
+[2025.12.09-07.17.53:223][296]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.9459
+[2025.12.09-07.17.53:233][297]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.95565
+[2025.12.09-07.17.53:242][298]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.964925
+[2025.12.09-07.17.53:251][299]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.974078
+[2025.12.09-07.17.53:259][300]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.983212
+[2025.12.09-07.17.53:269][301]LogBlueprintUserMessages: [BP_Pawn_C_1] 1.992667
+[2025.12.09-07.17.53:278][302]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.001424
+[2025.12.09-07.17.53:287][303]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.010292
+[2025.12.09-07.17.53:297][304]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.019915
+[2025.12.09-07.17.53:305][305]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.028841
+[2025.12.09-07.17.53:314][306]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.037776
+[2025.12.09-07.17.53:323][307]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.046734
+[2025.12.09-07.17.53:331][308]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.055684
+[2025.12.09-07.17.53:343][309]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.065679
+[2025.12.09-07.17.53:351][310]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.075524
+[2025.12.09-07.17.53:361][311]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.084365
+[2025.12.09-07.17.53:370][312]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.093677
+[2025.12.09-07.17.53:379][313]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.102836
+[2025.12.09-07.17.53:388][314]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.111829
+[2025.12.09-07.17.53:397][315]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.12071
+[2025.12.09-07.17.53:407][316]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.129812
+[2025.12.09-07.17.53:416][317]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.138859
+[2025.12.09-07.17.53:424][318]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.14769
+[2025.12.09-07.17.53:433][319]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.15709
+[2025.12.09-07.17.53:443][320]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.165889
+[2025.12.09-07.17.53:452][321]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.174966
+[2025.12.09-07.17.53:460][322]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.183872
+[2025.12.09-07.17.53:469][323]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.192738
+[2025.12.09-07.17.53:478][324]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.201708
+[2025.12.09-07.17.53:488][325]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.210753
+[2025.12.09-07.17.53:497][326]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.219836
+[2025.12.09-07.17.53:505][327]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.228986
+[2025.12.09-07.17.53:514][328]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.238234
+[2025.12.09-07.17.53:524][329]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.247366
+[2025.12.09-07.17.53:533][330]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.257339
+[2025.12.09-07.17.53:543][331]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.266688
+[2025.12.09-07.17.53:552][332]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.275511
+[2025.12.09-07.17.53:561][333]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.284568
+[2025.12.09-07.17.53:570][334]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.293431
+[2025.12.09-07.17.53:580][335]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.302751
+[2025.12.09-07.17.53:589][336]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.311638
+[2025.12.09-07.17.53:597][337]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.320724
+[2025.12.09-07.17.53:606][338]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.329767
+[2025.12.09-07.17.53:615][339]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.338819
+[2025.12.09-07.17.53:624][340]LogBlueprintUserMessages: [BP_Pawn_C_1] 2.348033
+[2025.12.09-07.17.57:214][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.17.57:214][728]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StarterWorld
+[2025.12.09-07.17.57:214][728]LogWorld: UWorld::CleanupWorld for StarterWorld, bSessionEnded=true, bCleanupResources=true
+[2025.12.09-07.17.57:214][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.17.57:234][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.09-07.17.57:239][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.09-07.17.57:260][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.09-07.17.57:261][728]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 100
+[2025.12.09-07.17.57:261][728]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100, StreamState=4
+[2025.12.09-07.17.57:263][728]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100, StreamState=2
+[2025.12.09-07.17.57:268][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.09-07.17.57:357][729]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2025.12.09-07.22.03:492][ 50]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22637.173828
+[2025.12.09-07.22.03:784][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.22.03:784][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22637.455078, Update Interval: 317.249054
+[2025.12.09-07.27.51:417][809]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22979.468750
+[2025.12.09-07.27.51:570][821]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.27.51:570][821]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22979.605469, Update Interval: 338.140198
+[2025.12.09-07.33.49:594][551]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.33.49:594][551]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.33.49:595][551]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.33.49:595][551]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.33.49:595][551]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.33.49:613][552]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.33.49:613][552]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.33.49:613][552]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.33.49:613][552]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.33.49:613][552]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.33.49:613][552]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.09-07.33.49:614][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.34.03:248][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23344.933594
+[2025.12.09-07.34.03:368][652]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.34.03:368][652]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23345.039062, Update Interval: 345.429840
+[2025.12.09-07.36.34:637][373]LogDerivedDataCache: C:/Users/mrboo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.09-07.40.37:787][124]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23746.392578
+[2025.12.09-07.40.37:932][135]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.40.37:932][135]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23746.527344, Update Interval: 309.133575
+[2025.12.09-07.41.22:156][542]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:156][542]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:167][543]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:167][543]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:167][543]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:185][544]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:187][544]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:187][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:187][544]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:187][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:187][544]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:187][544]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.09-07.41.22:190][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:587][550]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:587][550]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:660][550]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:660][550]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-07.41.22:660][550]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:699][550]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:699][550]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-07.41.22:699][550]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:729][551]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:729][551]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-07.41.22:729][551]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:743][551]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:743][551]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:743][551]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:769][552]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:771][552]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:771][552]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:773][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:797][553]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:797][553]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:797][553]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:809][553]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:809][553]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-07.41.22:809][553]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:819][554]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:821][554]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:821][554]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:821][554]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:821][554]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:821][554]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:823][554]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:840][555]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:842][555]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:842][555]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:842][555]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:842][555]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:860][556]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:862][556]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:862][556]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:862][556]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:862][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:862][556]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:865][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:870][556]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:870][556]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:880][557]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:880][557]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:880][557]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:896][558]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:898][558]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:898][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:898][558]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:898][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:898][558]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:900][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:900][558]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:900][558]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:916][559]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:916][559]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:916][559]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:927][559]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:927][559]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-07.41.22:927][559]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:931][560]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:933][560]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:933][560]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:933][560]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:933][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:933][560]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:934][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.22:955][561]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:955][561]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:965][562]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.41.22:965][562]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.22:965][562]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.22:981][563]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:982][563]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.41.22:982][563]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-07.41.22:982][563]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.22:984][563]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.41.22:984][563]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.22:984][563]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.22:984][563]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.22:984][563]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.41.22:985][563]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.41.23:024][565]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=1 - Odyssey G5 (3- AMD High Definition Audio Device), InstanceID=1
+[2025.12.09-07.41.23:024][565]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.23:037][566]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}]
+[2025.12.09-07.41.23:037][566]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.41.23:037][566]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.41.23:472][594]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=1 - MSI MP271A E2 (2- AMD High Definition Audio Device), InstanceID=1
+[2025.12.09-07.41.23:472][594]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-07.41.23:472][594]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{717fc287-6e31-4ec8-9d58-4165d6420f45}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.41.23:570][599]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.41.23:572][599]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}, Name=1 - Odyssey G5 (3- AMD High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=532.93
+[2025.12.09-07.41.23:572][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.41.23:572][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.41.23:573][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.46.24:118][993]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24087.845703
+[2025.12.09-07.46.24:277][  6]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.46.24:277][  6]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24087.990234, Update Interval: 306.828217
+[2025.12.09-07.52.05:198][810]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24422.347656
+[2025.12.09-07.52.05:356][823]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.52.05:356][823]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24422.490234, Update Interval: 338.662079
+[2025.12.09-07.56.34:735][733]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-07.56.34:735][733]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-07.56.34:751][734]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-07.56.34:751][734]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-07.56.34:751][734]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-07.56.34:766][735]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-07.56.34:766][735]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-07.56.34:766][735]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-07.56.34:766][735]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-07.56.34:766][735]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-07.56.34:766][735]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.09-07.56.34:767][735]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-07.58.28:704][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24799.798828
+[2025.12.09-07.58.28:856][781]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-07.58.28:856][781]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24799.935547, Update Interval: 318.477722
+[2025.12.09-08.04.23:589][684]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25150.378906
+[2025.12.09-08.04.23:739][696]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-08.04.23:739][696]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25150.513672, Update Interval: 318.941010
+[2025.12.09-08.10.27:832][324]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25509.916016
+[2025.12.09-08.10.27:972][335]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.09-08.10.27:972][335]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25510.044922, Update Interval: 301.019928
+[2025.12.09-08.14.31:271][451]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:271][451]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:275][451]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.31:275][451]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.31:275][451]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.31:293][452]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:295][452]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.31:295][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.31:295][452]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:295][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.31:295][452]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.31:295][452]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.09-08.14.31:297][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.31:708][459]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:708][459]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:787][460]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:787][460]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-08.14.31:787][460]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:826][460]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:826][460]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-08.14.31:826][460]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:862][460]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:862][460]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-08.14.31:862][460]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:864][460]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.31:864][460]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.31:864][460]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.31:889][461]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:891][461]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.31:891][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.31:891][461]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:891][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.31:891][461]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.31:893][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.31:895][461]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:895][461]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:922][462]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:922][462]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.09-08.14.31:922][462]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:923][462]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.31:923][462]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.31:923][462]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.31:940][463]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:942][463]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.31:942][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.31:942][463]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:942][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.31:942][463]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.31:945][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.31:953][463]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:953][463]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:961][464]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.31:961][464]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.31:961][464]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.31:976][465]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:979][465]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.31:979][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.31:979][465]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.31:979][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.31:979][465]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.31:980][465]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.31:980][465]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.31:980][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.31:995][466]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.31:995][466]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.31:995][466]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.32:008][467]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.32:008][467]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-08.14.32:008][467]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:010][467]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:012][467]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.32:012][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.32:012][467]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:012][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.32:012][467]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.32:013][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.32:034][468]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.32:034][468]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:043][469]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.32:043][469]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.32:043][469]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.32:062][470]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:064][470]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.32:064][470]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.32:064][470]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:064][470]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.32:064][470]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.32:066][470]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.32:067][470]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.32:067][470]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:084][471]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.09-08.14.32:084][471]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.32:084][471]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.32:099][472]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2025.12.09-08.14.32:099][472]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-08.14.32:099][472]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:101][472]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:102][472]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.09-08.14.32:102][472]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.32:102][472]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:102][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.32:102][472]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6396
+[2025.12.09-08.14.32:104][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.32:135][474]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=1 - Odyssey G5 (3- AMD High Definition Audio Device), InstanceID=1
+[2025.12.09-08.14.32:135][474]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:138][474]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}]
+[2025.12.09-08.14.32:138][474]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.09-08.14.32:138][474]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.09-08.14.32:593][501]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=1 - MSI MP271A E2 (2- AMD High Definition Audio Device), InstanceID=1
+[2025.12.09-08.14.32:593][501]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.09-08.14.32:593][501]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{717fc287-6e31-4ec8-9d58-4165d6420f45}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.09-08.14.32:692][507]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.12.09-08.14.32:693][507]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5f54fe57-1b29-4c14-907e-e92e693aa032}, Name=1 - Odyssey G5 (3- AMD High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=552.24
+[2025.12.09-08.14.32:693][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.09-08.14.32:693][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.09-08.14.32:694][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:939][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.14.48:940][638]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content' is outside repository at 'C:/GithubProjects/Feature-Project'
+[2025.12.09-08.15.03:926][638]LogSlate: Window 'Submit Files' being destroyed
+[2025.12.09-08.15.04:108][638]LogSourceControl: commit successful: [main 0300d32] more improvements
+[2025.12.09-08.15.04:146][638]SourceControl: [main 0300d32] more improvements
+[2025.12.09-08.15.04:146][638]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2025.12.09-08.15.04:155][638]SourceControl: Commited [main 0300d32] more improvements.
